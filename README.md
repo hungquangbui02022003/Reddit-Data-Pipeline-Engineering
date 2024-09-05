@@ -1,6 +1,6 @@
-# Data Pipeline with Reddit, Airflow, Celery, Postgres, S3, AWS Glue, Athena, and Redshift
+# Data Pipeline with Reddit, Airflow, Celery, Postgres and MongoDB
 
-This project provides a comprehensive data pipeline solution to extract, transform, and load (ETL) Reddit data into a Redshift data warehouse. The pipeline leverages a combination of tools and services including Apache Airflow, Celery, PostgreSQL, Amazon S3, AWS Glue, Amazon Athena, and Amazon Redshift.
+This project provides a comprehensive data pipeline solution to extract, transform, and load (ETL) Reddit data into a Redshift data warehouse. The pipeline leverages a combination of tools and services including Apache Airflow, Celery, PostgreSQL and MongoDB.
 
 ## Table of Contents
 
@@ -24,13 +24,9 @@ The pipeline is designed to:
 1. **Reddit API**: Source of the data.
 2. **Apache Airflow & Celery**: Orchestrates the ETL process and manages task distribution.
 3. **PostgreSQL**: Temporary storage and metadata management.
-4. **Amazon S3**: Raw data storage.
-5. **AWS Glue**: Data cataloging and ETL jobs.
-6. **Amazon Athena**: SQL-based data transformation.
-7. **Amazon Redshift**: Data warehousing and analytics.
+4. **MongoDB**: Raw data storage.
 
 ## Prerequisites
-- AWS Account with appropriate permissions for S3, Glue, Athena, and Redshift.
 - Reddit API credentials.
 - Docker Installation
 - Python 3.9 or higher
@@ -38,7 +34,7 @@ The pipeline is designed to:
 ## System Setup
 1. Clone the repository.
    ```bash
-    git clone https://github.com/airscholar/RedditDataEngineering.git
+    git clone https://github.com/hungquangbui02022003/Reddit-Data-Pipeline-Engineering.git
    ```
 2. Create a virtual environment.
    ```bash
@@ -64,7 +60,3 @@ The pipeline is designed to:
    ```bash
     open http://localhost:8080
    ```
-
-
-## Video
-[![Reddit Data Engineering](https://img.youtube.com/vi/LSlt6iVI_9Y/0.jpg)](https://www.youtube.com/watch?v=LSlt6iVI_9Y)# Reddit-Data-Pipeline-Engineering
