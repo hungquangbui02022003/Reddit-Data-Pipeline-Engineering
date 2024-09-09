@@ -1,6 +1,6 @@
 # Data Pipeline with Reddit, Airflow, Celery, Postgres and MongoDB
 
-This project provides a comprehensive data pipeline solution to extract, transform, and load (ETL) Reddit data into a Redshift data warehouse. The pipeline leverages a combination of tools and services including Apache Airflow, Celery, PostgreSQL and MongoDB.
+This project provides a comprehensive data pipeline solution to extract, transform, and load (ETL) Reddit data into a MongoDB data warehouse. The pipeline leverages a combination of tools and services including Apache Airflow, Celery, PostgreSQL and MongoDB.
 
 ## Table of Contents
 
